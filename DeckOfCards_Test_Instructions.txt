@@ -1,0 +1,28 @@
+Deck of Playing Cards
+ 
+This goal of this programming exercise is to write a simple C# console application which manages a deck of cards.
+ 
+A deck of playing cards consists of 52 cards which each have:
+ 
+•             A suit (either clubs, spades, diamonds, or hearts)
+•             A value (2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace). Note that Joker cards are excluded from this test.
+ 
+The deck of cards should have only one instance of a particular combination of suit and value (e.g., there can be only one Ace of Spades and one Nine of Diamonds).
+ 
+Tasks
+ 
+1.            Write some code that models a deck of cards and:
+ 
+a.            When initialised populates the deck with 52 new cards
+b.            Allow for a card to be removed from the deck - Once the card has been removed from the deck it should not be returned again.
+c.             Support a shuffle function which randomises the deck
+d.            Support a sorting function which sorts the deck
+ 
+2.            In the main application
+ 
+a.            Create a deck of cards
+b.            Select 10 random cards from the deck and print them to the console
+c.             Shuffle the deck and print entire deck to the console
+d.            Select 10 random cards from the deck and print them to the console
+e.            Sorts the deck by suit and then number, print the entire deck to the console
+f.             Select 10 random cards from the deck and print them to the console
